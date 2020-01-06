@@ -13,11 +13,6 @@ body {
 	box-sizing: border-box;
 }
 
-.container {
-	width: 1024px;
-	margin: 0 auto;
-}
-
 .header {
 	background-color: black;
 	height:100px;
@@ -34,7 +29,7 @@ body {
 }
 
 .header__img {
-	height: 90px;
+	height: 80px;
 }
 
 .header__link {
@@ -43,3 +38,40 @@ body {
 	text-decoration: none;
 }
 
+.annonce {
+	height: 300px;
+	background-image: url("./img/1.jpg");
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between; 
+	padding: 0 20px;
+}
+
+.annonce__time {
+	font-family: 'PT Mono', monospace;
+	margin-top: 40px;
+	color: white;
+}
+
+.annonce__title {
+	margin-top: 10px;
+	color: white;
+}
+
+.annonce__nom {
+	margin-top: 100px;
+	width: 300px;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.annonce__treiler {
+	height: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.annonce__img {
+	height: 280px;
+}
