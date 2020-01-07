@@ -47,7 +47,7 @@ body {
 	padding: 0 20px;
 }
 
-.annonce__time {
+.annonce__date {
 	font-family: 'PT Mono', monospace;
 	margin-top: 40px;
 	color: white;
@@ -74,4 +74,53 @@ body {
 
 .annonce__img {
 	height: 280px;
+}
+
+.view {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+.view__view {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.time {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.time__value {
+	margin-left: 20px;
+}
+
+.view__money {
+	margin-left: 20px;
+}
+
+.desc {
+	padding: 0 20px;
+}
+
+.rev.-top {
+	padding: 0 20px;
+}
+
+.rev__rev.-top {
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+.rev__triangle {
+	width: 0;
+	height: 0;
+	border-top: 100px solid black;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	background-color: white;
 }
