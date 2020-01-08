@@ -78,7 +78,7 @@ body {
 }
 
 .white {
-	padding: 0 20px;
+	padding: 20px;
 	background-color: white;
 }
 
@@ -243,9 +243,15 @@ body {
 	width: 30px;
 }
 
+.addons {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
 .galery__img {
 	height: 345px;
-	width: calc(50% - 20px);
+	width: 440px;
 	background-image: url("./img/gal.jpg");
 	background-size: contain;
 	display: flex;
@@ -253,6 +259,7 @@ body {
 	justify-content: space-between;
 	padding: 0 10px;
 	box-shadow: 0px 0px 30px 20px black inset;
+	margin-top: 20px;
 }
 
 .galery__arrow {
@@ -265,10 +272,15 @@ body {
 	flex-flow: column;
 }
 
+.press__title {
+	margin-bottom: 20px;
+}
+
 .press__link {
 	color: black;
 	text-decoration: none;
 	font-size: 20px;
+	margin-bottom: 10px;
 }
 
 .press__link.-a:hover {
@@ -301,4 +313,99 @@ body {
 
 .press__link.-h:hover {
 	color: #5b3af0;
+}
+
+.black {
+	padding: 20px;
+	background-color: black;
+}
+
+.event {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	width: 334px;
+}
+
+.event__title {
+	color: white;
+}
+
+.event__title.-hov:hover {
+	color: red;
+}
+
+.recardo {
+	height: 300px;
+	width: 500px;
+	background-image: url("./img/rec.PNG");
+	background-size: contain;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.recardo__date {
+	margin-top: 180px;
+}
+
+.recardo__title {
+	margin-bottom: 10px;
+}
+
+.photo {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+.tech {
+	height: 300px;
+	width: 300px;
+	background-image: url("./img/tech.jpg");
+	background-size: contain;
+	margin-top: 20px;
+	color: white;
+}
+
+.tech__nom {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 39px;
+	background-color: #00d4ff;
+}
+
+.tech__date {
+	margin-top: 170px;
+	margin-left: 10px;
+}
+
+.tech__title {
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.tech__que {
+	margin-left: 10px;
+}
+
+.timetable {
+	color: #a4a4a4;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #a4a4a4;
+	height: 50px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.timetable__title {
+	font-size: 15px;
+}
+
+.timetable__arrow {
+	font-size: 50px;
+	margin-left: 100px;
 }
