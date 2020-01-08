@@ -7,6 +7,7 @@ body {
 	min-height: 100vh;
 	width: 1000px;
 	margin: 0 auto;
+	background-image: url("./img/bg.jpg");
 }
 
 * {
@@ -78,12 +79,19 @@ body {
 
 .white {
 	padding: 0 20px;
+	background-color: white;
 }
 
 .info {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
+	padding: 10px 0;
+	border-bottom: 1.5px solid black;
+}
+
+.info__left {
+	margin-right: 100px;
 }
 
 .view {
@@ -115,6 +123,10 @@ body {
 
 .view__money {
 	margin-left: 20px;
+}
+
+.desc {
+
 }
 
 .rev__rev.-top {
@@ -162,6 +174,11 @@ body {
 	margin-bottom: 5px;
 }
 
+.answer.-link {
+	color: #00d4ff;
+	text-decoration: none;
+}
+
 .actor__title, .actor {
 	margin-bottom: 15px;
 }
@@ -178,7 +195,110 @@ body {
 }
 
 .spiker__img {
-	height: 100px;
-	width: 100px;
+	height: 120px;
+	width: 120px;
 	border-radius: 50%;
+	margin-right: 15px;
+	margin-top: 10px;
+}
+
+.spiker__surname {
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+.emojy {
+	font-family: 'Lato', sans-serif;
+	width: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.emogy.-facebook, .emogy.-brainly {
+	height: 30px;
+	width: 30px;
+	border: 0.5px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: 0.5s;
+}
+
+.emogy.-facebook:hover {
+	background-color: red;
+	color: white;
+	border: 0.5px solid red;
+}
+
+.emogy.-brainly:hover {
+	background-color: #61d99e;
+	color: white;
+	border: 0.5px solid #61d99e;
+}
+
+.emogy.-twitter {
+	height: 30px;
+	width: 30px;
+}
+
+.galery__img {
+	height: 345px;
+	width: calc(50% - 20px);
+	background-image: url("./img/gal.jpg");
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px;
+	box-shadow: 0px 0px 30px 20px black inset;
+}
+
+.galery__arrow {
+	font-size: 100px;
+	color: white;
+}
+
+.press {
+	display: flex;
+	flex-flow: column;
+}
+
+.press__link {
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.press__link.-a:hover {
+	color: #8b00c6;
+}
+
+.press__link.-b:hover {
+	color: #e9f03a;
+}
+
+.press__link.-c:hover {
+	color: #00d4ff;
+}
+
+.press__link.-d:hover {
+	color: #c60000;
+}
+
+.press__link.-e:hover {
+	color: #ffa30e;
+}
+
+.press__link.-f:hover {
+	color: #00c603;
+}
+
+.press__link.-g:hover {
+	color: #3af061;
+}
+
+.press__link.-h:hover {
+	color: #5b3af0;
 }
