@@ -75,6 +75,46 @@ body {
 
 .annonce__img {
 	height: 280px;
+	width: 392px;
+	background-image: url("./img/2.jpg");
+	background-size: contain;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	border: 1.5px solid white;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle__palka {
+	position: absolute;
+	height: 80px;
+	width: 1.5px;
+	background-color: white;
+}
+
+.circle__palka.-top {
+	transform: rotate(120deg);
+	top: 14px;
+	left: 84px;
+}
+
+.circle__palka.-left {
+	left: 50px;
+}
+
+.circle__palka.-bottom {
+	transform: rotate(60deg);
+	bottom: 14px;
+	left: 84px;
 }
 
 .white {
@@ -208,11 +248,10 @@ body {
 }
 
 .emojy {
-	font-family: 'Lato', sans-serif;
-	width: 200px;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	font-family: 'Lato', sans-serif;
 }
 
 .emogy.-facebook, .emogy.-brainly {
@@ -241,6 +280,18 @@ body {
 .emogy.-twitter {
 	height: 30px;
 	width: 30px;
+	background-image: url("./img/tw1.jpg");
+	background-size: contain;
+	border: 0.5px solid black;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	transition: 0.5s;
+}
+
+.emogy.-twitter:hover {
+	background-image: url("./img/tw2.png");
+	border: 0.5px solid #4dc8e8;
 }
 
 .addons {
@@ -408,4 +459,70 @@ body {
 .timetable__arrow {
 	font-size: 50px;
 	margin-left: 100px;
+}
+
+.footer {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #a4a4a4;
+	height: 100px;
+}
+
+.footer__parthers, .footer__emojy, .footer__desc {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer__img {
+	height: 90px;
+	margin-right: 10px;
+}
+
+.footer__emogy {
+	height: 40px;
+	width: 40px;
+	border: 2px solid #a4a4a4;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 10px;
+	color: white;
+}
+
+.footer__emogy.-instagram {
+	position: relative;
+}
+
+.camera {
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	border: 2px solid white;
+	border-radius: 6px;
+}
+
+.camera__lens {
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	border: 2px solid white;
+	border-radius: 50%;
+	bottom: 2px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.camera__flash {
+	position: absolute;
+	border: 2px solid white;
+	border-radius: 50%;
+	right: 2px;
+	top: 2px;
+}
+
+.footer__age {
+	margin-left: 20px;
 }
