@@ -1,0 +1,167 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.tech {
+	height: 650px;
+	width: 650px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.laptop, .telephone, .tablet, .computer {
+	height: 325px;
+	width: 325px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.laptop {
+	background-color: #e28b7a;
+}
+
+.laptop__monitor {
+	position: absolute;
+	height: 120px;
+	width: 200px;
+	background-color: black;
+	border-radius: 5%;
+	top: 90px;
+}
+
+.laptop__gleam {
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 80px solid #2c2c2c;
+	border-left: 0px solid transparent;
+	border-right: 160px solid transparent;
+	left: 5px;
+	top: 5px;
+}
+
+.laptop__screen {
+	position: absolute;
+	height: 101%;
+	width: 101%;
+	border: 5px solid white;
+	border-radius: 5%;
+}
+
+.laptop__keyboard {
+	position: absolute;
+	background-color: white;
+	height: 10px;
+	width: 300px;
+	border-radius: 1%;
+	bottom: 105px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.laptop__keyboard:before {
+	position: absolute;
+	display: block;
+	content: "";
+	height: 3px;
+	width: 30px;
+	background-color: #c3c3c3;
+	top: -1px;
+}
+
+.laptop__keyboard:after {
+	position: absolute;
+	display: block;
+	content: "";
+	height: 5px;
+	width: 100%;
+	background-color: #c3c3c3;
+	bottom: -5px;
+	border-radius: 0 0 20% 20%;
+}
+
+.tablet {
+	background-color: #7bdfad;
+}
+
+.tablet__body {
+	position: absolute;
+	background-color: white;
+	height: 200px;
+	width: 150px;
+	border-radius: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tablet__body:after {
+	position: absolute;
+	display: block;
+	content: "";
+	width: 23px;
+	height: 23px;
+	background-color: #a9a9a9;
+	border-radius: 50%;
+	bottom: 7px;
+}
+
+.tablet__monitor {
+	position: absolute;
+	background-color: black;
+	height: 150px;
+	width: 140px;
+	top: 15px;
+}
+
+.tablet__gleam {
+	width: 0;
+	height: 0;
+	border-top: 140px solid #2c2c2c;
+	border-left: 0px solid transparent;
+	border-right: 130px solid transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.telephone {
+	background-color: #79dae0;
+}
+
+.computer {
+	background-color: #f9b576;
+}
