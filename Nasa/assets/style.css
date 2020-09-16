@@ -1,0 +1,54 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: 'Dosis', sans-serif;
+}
+
+body {
+	background: linear-gradient(135deg, #000000, #0061ad);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	width: 600px;
+	margin: 0 auto;
+}
+
+.hero__info{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 50px;
+}
+
+.hero__img {
+	width: 300px;
+	margin-top: 20px;
+}
+
+.hero__title {
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+	margin-bottom: 20px;
+}
+
+.hero__btn {
+	border: solid 1px #06cd16;
+	border-radius: 10px;
+	background-color: #06cd16;
+	padding: 8px 20px;
+	color: white;
+	font-size: 15px;
+	font-weight: 700;
+}

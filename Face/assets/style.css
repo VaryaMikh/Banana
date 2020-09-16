@@ -1,0 +1,204 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.vanya {
+	position: relative;
+	width: 380px;
+	height: 600px;
+}
+
+.vanya__hair {
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	background-color: #050508;
+	height: 50%;
+	border-radius: 50% 50% 0 0;
+	z-index: -3;
+}
+
+.face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #FAC1A5;
+	border-radius: 50%;
+	z-index: -2;
+}
+
+.face__chyolka {
+	position: absolute;
+	width: 380px;
+	height: 600px;
+	left: 50%;
+	transform: translateX(-50%);
+	border-top: 20px solid #050508;
+	border-radius: 50%;	
+}
+
+.face__middle {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	height: 100px;
+}
+
+.ear {
+	position: absolute;
+	top: 0;
+	height: 150px;
+	width: 80px;
+	border-radius: 40%;	
+	background-color: #FAC1A5;
+}
+
+.ear.-left {
+	left: -50px;
+}
+
+.ear.-right {
+	right: -50px;
+}
+
+
+.prad {
+	position: absolute;
+	top: 0;
+	height: 300px;
+	width: 31px;
+	background-color: #050508;
+}
+
+.prad.-left {
+	left: -20px;
+}
+
+.prad.-right {
+	right: -20px;
+}
+
+.eye {
+	position: absolute;
+	top: 25%;
+	height: 40px;
+	width: 30px;
+	border-radius: 50%;	
+	background-color: black;
+}
+
+.eye.-left {
+	left: 80px;
+}
+
+.eye.-right {
+	right: 80px;
+}
+
+.eyepupil {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	height: 15%;
+	width: 15%;
+	border-radius: 50%;	
+	background-color: white;
+}
+
+.nose {
+	position: absolute;
+	top: -10%;
+	left: 152px;
+	height: 250%;
+	width: 20%;
+	border-radius: 50% 50% 20% 20%;	
+	background-color: #c98961;
+}
+
+.eyebrow {
+	position: absolute;
+	top: 0;
+	height: 40px;
+	width: 60px;
+	border-radius: 30% 1%;	
+	background-color: #050508;
+	top: -25%;
+}
+
+.eyebrow.-left {
+	left: 15%;
+}
+
+.eyebrow.-right {
+	right: 15%;
+}
+
+.mouth {
+	position: absolute;
+	top: 260%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 50%;
+	width: 30%;
+	border-bottom: 20px solid #280000;
+	border-radius: 50%;	
+}
+
+.glasses {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+}
+
+.tatoo {
+	position: absolute;
+	color: #050508;
+	width: 100%;
+	height: 100px;
+	font-family: 'Alfa Slab One', cursive;
+	font-size: 30px;
+}
+
+.tatoo.-top {
+	position: absolute;
+	top: -90px;
+	left: 50px;
+	width: 50px;
+	height: 50px;
+	font-family: 'Great Vibes', cursive;
+	font-size: 50px;
+	font-weight: 1000;
+}
+
+.tatoo.-left {
+	position: absolute;
+	bottom: -20px;
+	left: 40px;
+	width: 50px;
+	height: 50px;
+}
+
+.tatoo.-right {
+	position: absolute;
+	bottom: -20px;
+	right: 80px;
+	width: 50px;
+	height: 50px;
+}

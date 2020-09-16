@@ -1,0 +1,172 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: "Helvetica";
+}
+
+body {
+	background-color: #1dd0ff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 1200px;
+}
+
+.green {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #28df50;
+	height: 500px;
+}
+
+.green.-left {
+	width: 35%;
+}
+
+.green.-right {
+	width: 60%;
+}
+
+.green, .red {
+	padding: 10px;
+}
+
+.red {
+	background-color: #ff3b00;
+	width: 100%;
+}
+
+.red.-left.-top {
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.red.-left.-bottom {
+	height: 55%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.red.-right.-top {
+	height: 20%;
+}
+
+.red.-right.-bottom {
+	height: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.warning {
+	background-color: #ffa600;
+	height: 90%;
+	padding: 10px;
+	width: 25%;
+}
+
+.warning.-left.-top.-leftt {
+	margin-right: 5%;
+	margin-left: 22.5%;
+}
+
+.warning.-left.-top.-rightt {
+	margin-right: 22.5%;
+}
+
+.warning.-left.-bottom.-alone {
+	width: 10%;
+	height: 50%;
+}
+
+.-right.-bottom.-couple {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.-right.-bottom.-couple {
+	height: 90%;
+	width: 50%;
+}
+
+.-l {
+	margin-right: 10px;
+	width: 12.5%;
+}
+
+.-r {
+	width: 12.5%;
+}
+
+.warning.-right.-top.-square.-ll {
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.warning.-right.-top.-square.-rr {
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-end;
+}
+
+.-lll {
+	height: 10%;
+	width: 10%;
+}
+
+.-rrr {
+	height: 10%;
+	width: 10%;
+}
+
+/*		
+		<div class="green -left">
+			<div class="red -left -top">
+				<div class="warning -left -top -leftt"></div>
+				<div class="warning -left -top -rightt"></div>
+			</div>
+
+			<div class="red -left -bottom">
+				<div class="warning -left -bottom -alone"></div>
+			</div>
+		</div>
+
+		<div class="green -right">
+			<div class="red -right -top">
+				<div class="-right -top -square">
+					<div class="warning -right -bottom -square -ll">
+						<div class="warning -right -bottom -square -ll -lll"></div>
+					</div>
+					<div class="warning -right -bottom -square -rr">
+						<div class="warning -right -bottom -square -rr -rrr"></div>
+					</div>
+				</div>
+			</div>
+			<div class="red -right -bottom">
+				<div class="-right -bottom -couple">
+					<div class="warning -right -bottom -couple -l"></div>
+					<div class="warning -right -bottom -couple -r"></div>
+				</div>
+				<div class="warning -right -bottom -rightt"></div>
+			</div>
+		</div>
+*/

@@ -1,0 +1,43 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+p {
+	margin-top: 10px;
+	color: #454545;
+	font-size: 15px;
+}
+
+img {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.hero {
+	padding: 50px 0;
+	height: calc(100vh - 60px);
+}
+
+
+.rule {
+	display: inline-block;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	width: calc((100% / 3) - 30px);
+	padding: 0;
+	text-align: center;
+}
+
+.rule:last-child {
+	margin-right: 0;
+}

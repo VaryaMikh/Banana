@@ -1,0 +1,13 @@
+.container {
+	width: 1024px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+h1 {
+	font-size: 120px;
+}
+
+h2 {
+	font-size: 30px;
+}

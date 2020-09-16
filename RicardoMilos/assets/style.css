@@ -1,0 +1,176 @@
+body, h1, h2, h3, h4, p, ul, ol, li {
+	margin: 0;
+	font-family: "Helvetica"
+}
+
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+.ricardo {
+	position: relative;
+	width: 380px;
+	height: 600px;
+}
+
+.ricardo__hair {
+	position: absolute;
+	left: -20px;
+	right: -20px;
+	background-color: #2f1103;
+	height: 50%;
+	border-radius: 50% 50% 0 0;
+}
+
+.face {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #551f05;
+	border-radius: 50%;
+}
+
+.face__hat {
+	position: absolute;
+	width: 420px;
+	height: 160px;
+	left: 50%;
+	transform: translateX(-50%);
+	background-image: url("./img/bg.jpg");
+	border-radius: 100px 100px 0 0;
+}
+
+.face__middle {
+	position: absolute;
+	top: 200px;
+	width: 100%;
+	height: 100px;
+}
+
+.ear {
+	position: absolute;
+	top: 0;
+	height: 150px;
+	width: 80px;
+	border-radius: 40%;	
+	background-color: #551f05;
+}
+
+.ear.-left {
+	left: -50px;
+}
+
+.ear.-right {
+	right: -50px;
+}
+
+.eye {
+	position: absolute;
+	top: 25%;
+	height: 40px;
+	width: 30px;
+	border-radius: 50%;	
+	background-color: black;
+}
+
+.eye.-left {
+	left: 80px;
+}
+
+.eye.-right {
+	right: 80px;
+}
+
+.eyepupil {
+	position: absolute;
+	top: 25%;
+	left: 25%;
+	height: 15%;
+	width: 15%;
+	border-radius: 50%;	
+	background-color: white;
+}
+
+.nose {
+	position: absolute;
+	top: -10%;
+	left: calc((100% - 20%) / 2);
+	height: 250%;
+	width: 20%;
+	border-radius: 50% 50% 20% 20%;	
+	background-color: #1f0b02;
+}
+
+.eyebrow {
+	position: absolute;
+	top: 0;
+	height: 40px;
+	width: 60px;
+	border-radius: 30% 1%;	
+	background-color: #2f1103;
+	top: -25%;
+}
+
+.eyebrow.-left {
+	left: 15%;
+}
+
+.eyebrow.-right {
+	right: 15%;
+}
+
+.mouth {
+	position: absolute;
+	top: 260%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 50%;
+	width: 30%;
+	border-bottom: 20px solid #280000;
+	border-radius: 50%;	
+}
+
+.glasses {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+}
+
+.palka {
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translateX(-50%);
+	height: 15px;
+	width: 55px;
+	background-color: #008eff;
+}
+
+.glass {
+	position: absolute;
+	height: 130px;
+	width: 150px;
+	border: 15px solid #008eff;
+	border-radius: 10% 10% 50% 50%;	
+}
+
+.glass.-left {
+	left: 15px;
+}
+
+.glass.-right {
+	right: 15px;
+}
